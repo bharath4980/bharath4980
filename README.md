@@ -1,16 +1,33 @@
-## Hi there 👋
+# Hi, I'm Bharath 👋
 
-<!--
-**bharath4980/bharath4980** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 MS in Computer Science — University of Houston, Clear Lake  
+🎓 B.S. in Computer Science with AI Specialization  
+📍 Houston, Texas | Open to SWE & ML Engineer roles
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Featured Project
+
+### [MindMetrics — ML Stress Prediction System](https://github.com/bharath4980/MindMetrics-STREL)
+> Predicts stress vs. non-stress states from physiological signals using machine learning
+
+- 4 ML models: XGBoost · Random Forest · SVM · Logistic Regression
+- 70% accuracy · 0.75 ROC-AUC on participant-independent evaluation
+- Full-stack: FastAPI backend + React frontend
+- GroupKFold cross-validation to prevent participant data leakage
+- Dataset: STREL (IEEE Transactions on Affective Computing, 2025)
+
+---
+
+## 🛠 Tech Stack
+
+**Languages:** Python · JavaScript  
+**ML:** Scikit-learn · XGBoost · Pandas · NumPy  
+**Web:** FastAPI · React · Vite  
+**Tools:** Git · Jupyter · Matplotlib
+
+---
+
+## 📫 Connect with me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/morampudi-bharath-chand-1835401b5/)
