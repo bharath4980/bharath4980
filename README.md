@@ -30,4 +30,4 @@
 
 ## 📫 Connect with me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/morampudi-bharath-chand-1835401b5/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/bharath-morampudi/)
