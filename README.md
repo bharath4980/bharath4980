@@ -1,33 +1,36 @@
-# Hi, I'm Bharath 👋
+# Hi, I'm Bharath
 
-🎓 MS in Computer Science — University of Houston, Clear Lake  
-🎓 B.S. in Computer Science with AI Specialization  
-📍 Houston, Texas | Open to SWE & ML Engineer roles
+**Backend & Full-Stack Software Engineering**  
+MS in Computer Science — University of Houston–Clear Lake · Houston, Texas
 
----
+I'm a recent Computer Science graduate looking for an entry-level software engineering role. My focus is Java and Spring Boot backends, React interfaces, and SQL databases. I also work with Python and machine learning, including the Logistic Regression workflow in my team's MindMetrics capstone.
 
-## 🚀 Featured Project
+## Technical focus
 
-### [MindMetrics — ML Stress Prediction System](https://github.com/bharath4980/MindMetrics-STREL)
-> Predicts stress vs. non-stress states from physiological signals using machine learning
+- **Backend:** Java · Spring Boot · Python · FastAPI · REST APIs
+- **Frontend:** React · JavaScript · HTML · CSS
+- **Databases:** SQL · PostgreSQL · MySQL
+- **Tools:** Git · Docker · AWS
+- **Data & ML:** PyTorch · scikit-learn · pandas · NumPy
 
-- 4 ML models: XGBoost · Random Forest · SVM · Logistic Regression
-- 70% accuracy · 0.75 ROC-AUC on participant-independent evaluation
-- Full-stack: FastAPI backend + React frontend
-- GroupKFold cross-validation to prevent participant data leakage
-- Dataset: STREL (IEEE Transactions on Affective Computing, 2025)
+## Featured project
 
----
+### [MindMetrics — Stress Prediction System](https://github.com/bharath4980/MindMetrics-STREL)
 
-## 🛠 Tech Stack
+A team capstone at UHCL for comparing stress-classification models using the STREL dataset. The application connects a React interface to a FastAPI backend so users can select features, run experiments, and review model results.
 
-**Languages:** Python · JavaScript  
-**ML:** Scikit-learn · XGBoost · Pandas · NumPy  
-**Web:** FastAPI · React · Vite  
-**Tools:** Git · Jupyter · Matplotlib
+**My contribution:** Logistic Regression development and evaluation, including preprocessing, participant-based cross-validation, and classification metrics.
 
----
+The shared project includes Logistic Regression, SVM, Random Forest, and XGBoost. Its participant-based evaluation keeps each participant's records together when splitting training and validation data.
 
-## 📫 Connect with me
+[Project overview and setup](https://github.com/bharath4980/MindMetrics-STREL#readme) · [Logistic Regression implementation](https://github.com/bharath4980/MindMetrics-STREL/blob/main/src/models/logreg_model.py)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/bharath-morampudi/)
+## What I'm working toward
+
+Building out my backend and full-stack portfolio with REST APIs, relational databases, authentication, testing, and deployment.
+
+I'm interested in Software Engineer I, Associate Software Engineer, Backend Developer, and Full-Stack Developer opportunities.
+
+## Connect
+
+[LinkedIn](https://www.linkedin.com/in/bharath-morampudi/) · [GitHub](https://github.com/bharath4980)
