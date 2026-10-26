@@ -5,7 +5,7 @@
 I'm a Software Engineer with 3 years of professional experience building backend and full-stack applications with Java, Spring Boot, React, REST APIs, and SQL. At ValueLabs and Darwinbox, I worked on API development, database optimization, authentication, automated testing, and CI/CD.
 
 Based in Houston, TX · M.S. Computer Science, University of Houston–Clear Lake  
-[LinkedIn](https://www.linkedin.com/in/bharath-morampudi/) · [DevTrack live demo](https://devtrack-3upd.onrender.com)
+[Portfolio](https://bharath-morampudi-portfolio.onrender.com/) · [LinkedIn](https://www.linkedin.com/in/bharath-morampudi/) · [DevTrack live demo](https://devtrack-3upd.onrender.com)
 
 ## Professional experience
 
