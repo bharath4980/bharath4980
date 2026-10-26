@@ -1,65 +1,52 @@
-# Bharath Chand Morampudi
+# Bharath Chand Morampudi — Software Engineering Portfolio
 
-**Software Engineer | Java & Spring Boot | Backend & Full-Stack Development**
+A recruiter-focused personal website featuring professional Java/Spring Boot experience, production engineering decisions and attributable projects.
 
-I'm a Software Engineer with 3 years of professional experience building backend and full-stack applications with Java, Spring Boot, React, REST APIs, and SQL. At ValueLabs and Darwinbox, I worked on API development, database optimization, authentication, automated testing, and CI/CD.
+## What is in the site
 
-Based in Houston, TX · M.S. Computer Science, University of Houston–Clear Lake  
-[LinkedIn](https://www.linkedin.com/in/bharath-morampudi/) · [DevTrack live demo](https://devtrack-3upd.onrender.com)
+- Professional opening statement emphasizing Java/Spring Boot and enterprise full-stack delivery.
+- Featured DevTrack application, with dedicated engineering case study, production links, documented architecture and CI evidence.
+- MindMetrics team capstone with Bharath's individual Logistic Regression contribution explicitly distinguished from team work.
+- Quantified highlights from the professional resume at ValueLabs and Darwinbox.
+- A one-page **public-safe résumé PDF** at `assets/Bharath_Morampudi_Public_Resume.pdf` (phone intentionally omitted; education dates intentionally omitted).
+- Accessible navigation, mobile layouts, social preview artwork, and email / LinkedIn / GitHub contact actions.
 
-## Professional experience
+**Visual accuracy:** The website's DevTrack pipeline drawing is an editorial illustration, **not a real application screenshot**. The MindMetrics graph is conceptual, **not measured results**. For the actual implementation, follow the provided live app, repository, CI and methodology links. No private production records were captured.
 
-**ValueLabs — Software Engineer · Aug 2023–Jul 2024**  
-Built and tested Java/Spring Boot REST APIs, optimized MySQL queries, and developed reusable React components for dashboards and administrative screens. Worked on validation, authentication, role-based access control, JUnit tests, defect resolution, and Agile releases with development and QA teams.
+## Run locally
 
-**Darwinbox — Software Engineer · Jun 2021–May 2023**  
-Developed Java/Spring Boot and React business workflows using Spring MVC, JPA/Hibernate, MySQL, and PostgreSQL. Worked on API and query performance, reusable UI components, authentication and authorization, and production debugging. Supported biweekly releases with Git, Maven, Jenkins, and Docker alongside QA and DevOps.
+```bash
+python3 -m http.server 8000
+```
 
-## Selected projects
+Visit http://localhost:8000 from this folder. No build tool, third-party JavaScript, API keys, account tracking, form backend or database are required. The optional Google Fonts stylesheet uses external requests; system font fallbacks work without internet.
 
-### [DevTrack — Job Application Tracker](https://github.com/bharath4980/devtrack)
+## Deployment
 
-**Java 21 · Spring Boot · React · TypeScript · PostgreSQL**
+This site is deployed from the isolated `portfolio-site` branch of `bharath4980/bharath4980` to a free Render Static Site. It does not modify the profile README on `main`.
 
-A deployed full-stack application for managing job applications, statuses, notes, and upcoming interviews.
+- Publish directory: repository root (`./`)
+- Build command: `echo 'Static portfolio ready'`
+- Automatic deployment: enabled for updates to `portfolio-site`
+- The site contains no backend, database, analytics tracking, or stored credentials.
+- Contact and public résumé information is intentionally published.
 
-- Spring Security sessions, BCrypt, CSRF protection, authentication throttling, and per-user data ownership
-- Search, filtering, pagination, stable sorting, dashboard counts, and interview tracking
-- Flyway migrations, structured API errors, and field-level validation feedback
-- JUnit and PostgreSQL integration checks, plus Playwright workflows on desktop and mobile Chromium
-- GitHub Actions verification and a multi-stage, non-root Docker deployment on Render
+The dedicated GitHub Pages repository `bharath4980.github.io` has not been created. The site can be moved there later without changing the design.
 
-[Live demo](https://devtrack-3upd.onrender.com) · [Source & setup](https://github.com/bharath4980/devtrack) · [Engineering decisions](https://github.com/bharath4980/devtrack/blob/main/docs/engineering.md)
+## Fact and privacy checks before publishing
 
-The demo may take a moment to wake up after inactivity.
+- Professional dates: ValueLabs (Aug 2023–Jul 2024), Darwinbox (Jun 2021–May 2023). Quantitative examples match the selected approved résumé, not independent employer verification.
+- MindMetrics is a team capstone, with the Logistic Regression implementation attributed to Bharath.
+- Project links go to accessible public repositories; DevTrack is hosted at `https://devtrack-3upd.onrender.com` and can require a cold start.
+- Site publicly displays `bharathmorampudi159@gmail.com` and Houston, Texas. No home address, credentials, phone number, or other sensitive details are included.
+- `assets/social-preview.png` is available for social previews **after** the public origin is set correctly.
+- The downloadable résumé is a concise public portfolio copy, **not a claim to replace your full master résumé** used for individual applications.
 
-### [MindMetrics — Stress Classification](https://github.com/bharath4980/MindMetrics-STREL)
+## Source files
 
-**Python · PyTorch · scikit-learn · FastAPI · React**
-
-A UHCL team capstone comparing stress-classification models on physiological data from the STREL dataset. **My contribution was the Logistic Regression workflow:**
-
-- Implemented the model in PyTorch and preprocessing for missing values, numeric scaling, and categorical encoding
-- Evaluated with 5-fold GroupKFold by participant, fitting preprocessing within each training fold
-- Returned fold-level metrics and confusion matrices for the team's React/FastAPI comparison dashboard
-
-The broader application and other model workflows were team contributions.
-
-[Source & setup](https://github.com/bharath4980/MindMetrics-STREL) · [My Logistic Regression implementation](https://github.com/bharath4980/MindMetrics-STREL/blob/main/src/models/logreg_model.py)
-
-## Technical skills
-
-| Area | Technologies |
-| --- | --- |
-| Languages | Java, Python, JavaScript, TypeScript, SQL |
-| Backend | Spring Boot, Spring MVC, Spring Security, Spring Data JPA, Hibernate, REST APIs, FastAPI |
-| Frontend | React |
-| Databases | PostgreSQL, MySQL, Flyway |
-| Testing & delivery | JUnit, integration testing, Playwright, Postman, Docker, GitHub Actions, Jenkins, Git, Maven, CI/CD |
-| Applied ML | PyTorch, scikit-learn, pandas, GroupKFold cross-validation |
-
-## Connect
-
-I'm open to **Software Engineer, Backend Software Engineer, Java/Spring Boot, and Full-Stack Software Engineer** opportunities.
-
-[Connect with me on LinkedIn](https://www.linkedin.com/in/bharath-morampudi/)
+- `index.html` — content and SEO metadata
+- `styles.css` — layout, motion reduction and responsive design
+- `script.js` — accessible mobile navigation and scroll behavior
+- `assets/Bharath_Morampudi_Public_Resume.pdf` — public résumé
+- `assets/social-preview.png` — social card
+- `assets/favicon.svg` — favicon
