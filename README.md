@@ -9,7 +9,7 @@ A recruiter-focused personal website featuring professional Java/Spring Boot exp
 - MindMetrics team capstone with Bharath's individual Logistic Regression contribution explicitly distinguished from team work.
 - Quantified highlights from the professional resume at ValueLabs and Darwinbox.
 - A one-page **public-safe résumé PDF** at `assets/Bharath_Morampudi_Public_Resume.pdf` (phone intentionally omitted; education dates intentionally omitted).
-- Accessible navigation, mobile layouts, social preview artwork, and email / LinkedIn / GitHub contact actions.
+- Accessible navigation, mobile layouts, search/social metadata, and email / LinkedIn / GitHub contact actions.
 
 **Visual accuracy:** The website's DevTrack pipeline drawing is an editorial illustration, **not a real application screenshot**. The MindMetrics graph is conceptual, **not measured results**. For the actual implementation, follow the provided live app, repository, CI and methodology links. No private production records were captured.
 
@@ -22,6 +22,9 @@ python3 -m http.server 8000
 Visit http://localhost:8000 from this folder. No build tool, third-party JavaScript, API keys, account tracking, form backend or database are required. The optional Google Fonts stylesheet uses external requests; system font fallbacks work without internet.
 
 ## Deployment
+
+**Live URL:** https://bharath-morampudi-portfolio.onrender.com/
+
 
 This site is deployed from the isolated `portfolio-site` branch of `bharath4980/bharath4980` to a free Render Static Site. It does not modify the profile README on `main`.
 
@@ -39,7 +42,7 @@ The dedicated GitHub Pages repository `bharath4980.github.io` has not been creat
 - MindMetrics is a team capstone, with the Logistic Regression implementation attributed to Bharath.
 - Project links go to accessible public repositories; DevTrack is hosted at `https://devtrack-3upd.onrender.com` and can require a cold start.
 - Site publicly displays `bharathmorampudi159@gmail.com` and Houston, Texas. No home address, credentials, phone number, or other sensitive details are included.
-- `assets/social-preview.png` is available for social previews **after** the public origin is set correctly.
+- Social previews currently provide a title and description; an image preview can be added later.
 - The downloadable résumé is a concise public portfolio copy, **not a claim to replace your full master résumé** used for individual applications.
 
 ## Source files
@@ -48,5 +51,4 @@ The dedicated GitHub Pages repository `bharath4980.github.io` has not been creat
 - `styles.css` — layout, motion reduction and responsive design
 - `script.js` — accessible mobile navigation and scroll behavior
 - `assets/Bharath_Morampudi_Public_Resume.pdf` — public résumé
-- `assets/social-preview.png` — social card
 - `assets/favicon.svg` — favicon
