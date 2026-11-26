@@ -3,176 +3,333 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="dark" />
-  <meta name="theme-color" content="#0c1113" />
-  <meta name="description" content="Bharath Chand Morampudi is a software engineer with approximately three years of professional experience in Java, Spring Boot, APIs and full-stack delivery. View engineering case studies, experience and projects." />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#f7f8fa" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)" />
+  <title>Bharath Chand Morampudi — Software Engineer</title>
+  <meta name="description" content="Bharath Chand Morampudi is a backend and full-stack software engineer in Houston, TX, building Java, Spring Boot and React applications, with about three years of professional experience at Darwinbox and ValueLabs." />
+  <link rel="canonical" href="https://bharath-morampudi-portfolio.onrender.com/" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Bharath Chand Morampudi — Software Engineer" />
-  <meta property="og:description" content="Java / Spring Boot engineer. Enterprise software experience, production DevTrack case study, and selected work in full-stack engineering and applied ML." />
+  <meta property="og:url" content="https://bharath-morampudi-portfolio.onrender.com/" />
   <meta property="og:site_name" content="Bharath Morampudi | Portfolio" />
+  <meta property="og:title" content="Bharath Chand Morampudi — Software Engineer" />
+  <meta property="og:description" content="Backend and full-stack engineer: Java, Spring Boot, PostgreSQL and React. Experience at Darwinbox and ValueLabs; projects include a multi-tenant approval workflow API and DevTrack." />
   <meta name="twitter:card" content="summary" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
-  <title>Bharath Chand Morampudi — Software Engineer</title>
-  <link rel="canonical" href="https://bharath-morampudi-portfolio.onrender.com/" />
-  <meta property="og:url" content="https://bharath-morampudi-portfolio.onrender.com/" />
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="stylesheet" href="styles.css" />
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Bharath Chand Morampudi", "jobTitle": "Software Engineer", "address": {"@type": "PostalAddress", "addressLocality": "Houston", "addressRegion": "TX", "addressCountry": "US"}, "alumniOf": {"@type": "CollegeOrUniversity", "name": "University of Houston–Clear Lake"}, "sameAs": ["https://github.com/bharath4980", "https://www.linkedin.com/in/bharath-morampudi/"]}</script>
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'light' || saved === 'dark') document.documentElement.dataset.theme = saved;
+      } catch (e) {}
+    })();
+  </script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Bharath Chand Morampudi", "jobTitle": "Software Engineer", "address": {"@type": "PostalAddress", "addressLocality": "Houston", "addressRegion": "TX", "addressCountry": "US"}, "alumniOf": [{"@type": "CollegeOrUniversity", "name": "University of Houston–Clear Lake"}, {"@type": "CollegeOrUniversity", "name": "KL University"}], "sameAs": ["https://github.com/bharath4980", "https://www.linkedin.com/in/bharath-morampudi/"]}</script>
+  <script src="script.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="page-glow" aria-hidden="true"></div>
-  <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
 
-  <header class="site-header" id="top">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="wordmark" href="#top" aria-label="Bharath Morampudi, back to top"><span class="mark">BM<span>.</span></span><span class="wordmark-caption">Bharath<br />Morampudi</span></a>
-      <button class="menu-button" type="button" aria-label="Open navigation" aria-controls="nav-links" aria-expanded="false"><span></span><span></span><span></span></button>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="brand" href="#top" aria-label="Bharath Morampudi, back to top">
+        <span class="brand-mark" aria-hidden="true">BM</span>
+        <span class="brand-name">Bharath Morampudi</span>
+      </a>
       <div class="nav-links" id="nav-links">
-        <a href="#work">Projects</a>
+        <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#skills">Skills</a>
-        <a href="#case-study">Case study</a>
-        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
       </div>
-      <a class="nav-contact nav-resume" href="assets/Bharath_Morampudi_Public_Resume.pdf" download>Download résumé <span aria-hidden="true">↗</span></a>
+      <div class="nav-actions">
+        <button class="icon-button theme-toggle" type="button" aria-label="Switch to dark theme">
+          <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+          <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <a class="button button-small button-primary nav-resume" href="assets/Bharath_Morampudi_Public_Resume.pdf">Resume</a>
+        <button class="icon-button menu-button" type="button" aria-label="Open menu" aria-controls="nav-links" aria-expanded="false">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
     </nav>
   </header>
 
   <main id="main">
-    <section class="hero container" aria-labelledby="hero-heading">
-      <div class="hero-copy" data-reveal>
-        <div class="eyebrow"><span class="live-dot" aria-hidden="true"></span> JAVA / SPRING BOOT ENGINEER <span class="eyebrow-divider"></span> HOUSTON, TX</div>
-        <h1 id="hero-heading">Engineering dependable<br /><em>software systems.</em></h1>
-        <p class="hero-description">I'm <strong>Bharath Chand Morampudi</strong>, a software engineer with approximately three years of professional experience. I build Java / Spring Boot services, work across React interfaces and relational databases, and care about the details that make software reliable in production.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#work">View selected work <span aria-hidden="true">↗</span></a>
-          <a class="button button-outline-dark" href="assets/Bharath_Morampudi_Public_Resume.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
-        </div>
-        <div class="hero-proof" aria-label="Professional summary">
-          <div><strong>~3 years</strong><span>Enterprise engineering</span></div>
-          <div><strong>Java / Spring</strong><span>Core backend focus</span></div>
-          <div><strong>End-to-end</strong><span>Designed → deployed</span></div>
-        </div>
-      </div>
-
-      <div class="hero-visual" data-reveal>
-        <div class="visual-chrome"><span class="chrome-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>SYSTEM / 001</span><span class="status"><i></i> LIVE BUILD</span></div>
-        <div class="visual-main">
-          <p class="visual-caption">FEATURED / LIVE FULL-STACK APPLICATION</p>
-          <div class="visual-title">DevTrack<span class="visual-asterisk">✳</span></div>
-          <p class="visual-subtitle">A production-deployed application built around authenticated data, practical workflows and measurable delivery checks.</p>
-          <div class="flow-diagram" aria-label="DevTrack architecture: React TypeScript frontend, Spring Boot API, Neon PostgreSQL database">
-            <div class="flow-cell"><span class="flow-symbol">◫</span><span><b>Client</b><small>React / TypeScript</small></span></div>
-            <div class="flow-connector"><span>↕</span></div>
-            <div class="flow-cell middle"><span class="flow-symbol">⌘</span><span><b>API + Security</b><small>Spring Boot / Java</small></span><span class="flow-pulse"></span></div>
-            <div class="flow-connector"><span>↕</span></div>
-            <div class="flow-cell"><span class="flow-symbol">▤</span><span><b>Persistence</b><small>Neon PostgreSQL</small></span></div>
+    <section class="hero" id="top" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="status-pill"><span class="status-dot" aria-hidden="true"></span>Open to backend &amp; full-stack roles</p>
+          <h1 id="hero-heading">Bharath Chand Morampudi</h1>
+          <p class="hero-role">Software Engineer · Java, Spring Boot &amp; React</p>
+          <p class="hero-lede">I build secure, well-tested backend services and the React interfaces on top of them, drawing on about three years of professional experience at Darwinbox and ValueLabs.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="assets/Bharath_Morampudi_Public_Resume.pdf">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M9 13h6M9 17h6"/></svg>
+              Resume
+            </a>
+            <a class="button button-secondary" href="https://github.com/bharath4980" target="_blank" rel="noopener noreferrer">
+              <svg class="icon icon-fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+              GitHub<span class="sr-only"> (opens in a new tab)</span>
+            </a>
+            <a class="button button-secondary" href="https://www.linkedin.com/in/bharath-morampudi/" target="_blank" rel="noopener noreferrer">
+              <svg class="icon icon-fill" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+              LinkedIn<span class="sr-only"> (opens in a new tab)</span>
+            </a>
           </div>
-          <div class="visual-tags"><span>SESSION SECURITY</span><span>FLYWAY</span><span>CI / CD</span></div>
         </div>
-        <a class="visual-footer" href="https://devtrack-3upd.onrender.com" target="_blank" rel="noopener noreferrer"><span>View the deployed application</span><span class="round-arrow" aria-hidden="true">↗</span></a>
+
+        <aside class="facts-card" aria-label="At a glance">
+          <p class="card-label">At a glance</p>
+          <dl class="facts">
+            <div><dt>Experience</dt><dd>~3 years as a Software Engineer at Darwinbox and ValueLabs</dd></div>
+            <div><dt>Core stack</dt><dd>Java 21, Spring Boot, PostgreSQL, React, TypeScript</dd></div>
+            <div><dt>Education</dt><dd>M.S. Computer Science, University of Houston–Clear Lake</dd></div>
+            <div><dt>Location</dt><dd>Houston, Texas</dd></div>
+          </dl>
+        </aside>
       </div>
-      <div class="hero-index" aria-hidden="true">SCROLL TO EXPLORE <span>↓</span></div>
     </section>
 
-    <div class="strip" aria-label="Core technologies"><div class="strip-inner container"><span>JAVA 21</span><i></i><span>SPRING BOOT</span><i></i><span>REACT</span><i></i><span>TYPESCRIPT</span><i></i><span>POSTGRESQL</span><i></i><span>DOCKER</span><i></i><span>PYTHON</span></div></div>
-
-    <section class="section work-section container" id="work" aria-labelledby="work-heading">
-      <div class="section-header" data-reveal>
-        <div><p class="section-kicker"><span>01 /</span> SELECTED WORK</p><h2 id="work-heading">Selected work.<br /><em>Real engineering.</em></h2></div>
-        <p>A production full-stack platform and a team ML capstone, with the scope of my contributions made clear.</p>
-      </div>
-      <article class="project project-featured" data-reveal>
-        <div class="project-graphic graphic-devtrack" aria-hidden="true">
-          <div class="graphic-top"><span class="graphic-logo">D<span>.</span></span><span class="graphic-label">CONCEPTUAL UI VIEW</span></div>
-          <div class="graphic-board"><div class="board-header"><b>Pipeline overview</b><span>● ● ●</span></div><div class="board-lanes"><div class="lane"><small>SAVED</small><span class="lane-card"></span><span class="lane-card short"></span></div><div class="lane"><small>APPLIED</small><span class="lane-card"></span><span class="lane-card short"></span><span class="lane-card"></span></div><div class="lane"><small>INTERVIEW</small><span class="lane-card highlight"></span><span class="lane-card short"></span></div></div></div>
-          <div class="graphic-bottom"><span>EDITORIAL ILLUSTRATION · NOT A SCREENSHOT</span><span>2026</span></div>
-        </div>
-        <div class="project-body">
-          <p class="project-number">FEATURED BUILD <span>— 01</span></p>
-          <h3>DevTrack</h3>
-          <p class="project-type">Full-stack job application workspace</p>
-          <p class="project-description">A deployed, multi-user job application workspace with pipeline management, interview preparation, follow-up tracking and analytics. Designed to remain straightforward to operate while protecting each user’s data.</p>
-          <ul class="feature-list">
-            <li>Secured account-specific data with Spring Security sessions, BCrypt, CSRF and ownership checks</li>
-            <li>Built search, a five-stage board, interview workflows, follow-up actions and analytics</li>
-            <li>Released through Docker / Render, Neon PostgreSQL, Flyway migrations and CI</li>
-          </ul>
-          <div class="tech-tags"><span>Java 21</span><span>Spring Boot</span><span>React</span><span>PostgreSQL</span><span>Docker</span></div>
-          <div class="project-actions"><a href="https://devtrack-3upd.onrender.com" target="_blank" rel="noopener noreferrer">Live application <span aria-hidden="true">↗</span></a><a href="#case-study">Engineering case study <span aria-hidden="true">↓</span></a><a href="https://github.com/bharath4980/devtrack" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
-        </div>
-      </article>
-      <article class="project project-secondary" data-reveal>
-        <div class="project-body">
-          <p class="project-number">TEAM CAPSTONE <span>— 02</span></p>
-          <h3>MindMetrics</h3>
-          <p class="project-type">Stress classification & model comparison</p>
-          <p class="project-description">A University of Houston–Clear Lake team capstone comparing stress-classification models. My individual work focused on implementing and evaluating the Logistic Regression pipeline; the wider application was a team effort.</p>
-          <ul class="feature-list">
-            <li>Implemented Logistic Regression in PyTorch and training-fold preprocessing</li>
-            <li>Used five-fold participant-grouped validation to keep records from the same person in one fold</li>
-            <li>Produced fold-level metrics and confusion matrices for the shared React / FastAPI interface</li>
-          </ul>
-          <div class="tech-tags"><span>Python</span><span>PyTorch</span><span>scikit-learn</span><span>FastAPI</span><span>React</span></div>
-          <div class="project-actions"><a href="https://github.com/bharath4980/MindMetrics-STREL" target="_blank" rel="noopener noreferrer">Source & methodology <span aria-hidden="true">↗</span></a><a href="https://github.com/bharath4980/MindMetrics-STREL/blob/main/src/models/logreg_model.py" target="_blank" rel="noopener noreferrer">My model implementation <span aria-hidden="true">↗</span></a></div>
-        </div>
-        <div class="project-graphic graphic-mindmetrics" aria-hidden="true"><div class="graphic-top"><span class="graphic-logo">M<span>.</span></span><span class="graphic-label">ILLUSTRATIVE GRAPH</span></div><div class="metric-viz"><div class="metric-viz-top"><small>MODEL EVALUATION</small><small>GROUPKFOLD / 05</small></div><svg class="plot" viewBox="0 0 500 220" role="presentation"><path d="M42 24 V180 H472" stroke="rgba(240,244,235,.24)" stroke-width="1.5" fill="none"/><path d="M43 170 C115 165 142 145 189 129 S282 60 332 47 S407 32 472 27" stroke="#b0efd4" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M43 173 C115 169 142 160 189 143 S282 89 332 80 S407 63 472 55" stroke="#8cabb2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-dasharray="5 7"/><circle cx="332" cy="47" r="6" fill="#b0efd4"/><circle cx="332" cy="47" r="13" stroke="rgba(176,239,212,.35)" fill="none"/><path d="M42 180 H472" stroke="rgba(240,244,235,.25)" stroke-width="1.5"/></svg><div class="plot-labels"><span>INPUT</span><span>PREPROCESSING</span><span>EVALUATION</span></div></div><div class="graphic-bottom"><span>CONCEPTUAL VISUAL · NOT MODEL RESULTS</span><span>UHCL CAPSTONE</span></div></div>
-      </article>
-    </section>
-
-    <section class="section case-study-section" id="case-study" aria-labelledby="case-study-heading">
+    <section class="section" id="projects" aria-labelledby="projects-heading">
       <div class="container">
-        <div class="section-header" data-reveal>
-          <div><p class="section-kicker"><span>02 /</span> DEVTRACK ENGINEERING CASE STUDY</p><h2 id="case-study-heading">Beyond the<br /><em>interface.</em></h2></div>
-          <p>How I approached a small product as a real production system: boundaries, trade-offs, verification and recovery.</p>
+        <header class="section-header">
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-heading">Selected work</h2>
+          <p class="section-intro">Backend-heavy projects with the code public on GitHub. Where a project was a team effort, my part is called out.</p>
+        </header>
+
+        <div class="project-grid">
+          <article class="card project project-featured">
+            <div class="project-head">
+              <div>
+                <p class="project-kicker">Backend · API design</p>
+                <h3>Multi-Tenant Approval Workflow API</h3>
+              </div>
+              <p class="project-badge">Not deployed · code only</p>
+            </div>
+            <p class="project-summary">A REST API for approval workflows that serves multiple tenants from one PostgreSQL database while keeping each tenant's data isolated.</p>
+            <ul class="project-points">
+              <li>Tenant isolation enforced in the database with PostgreSQL row-level security and tenant-scoped JWTs.</li>
+              <li>Safe retries and concurrent updates through idempotency keys and optimistic locking, with an append-only audit trail.</li>
+              <li>175 JUnit 5 and Testcontainers tests at 97.9% line coverage, with an 80% JaCoCo gate in GitHub Actions.</li>
+              <li>Metrics exposed with Micrometer and visualized in Grafana.</li>
+            </ul>
+            <ul class="tags" aria-label="Technologies">
+              <li>Java 21</li><li>Spring Boot 3.5</li><li>PostgreSQL</li><li>JWT</li><li>JUnit 5</li><li>Testcontainers</li><li>GitHub Actions</li><li>Micrometer</li><li>Grafana</li>
+            </ul>
+            <div class="project-links">
+              <a class="link-button" href="https://github.com/bharath4980/multi-tenant-approval-api" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg>
+                Code<span class="sr-only">: Multi-Tenant Approval Workflow API on GitHub (opens in a new tab)</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-head">
+              <div>
+                <p class="project-kicker">Full stack · Live</p>
+                <h3>DevTrack</h3>
+              </div>
+            </div>
+            <p class="project-summary">A multi-user job application tracker. Spring Boot serves the API and a React and TypeScript frontend, with each user's records kept to their own account.</p>
+            <ul class="project-points">
+              <li>Session authentication with Spring Security and per-user data ownership.</li>
+              <li>PostgreSQL schema versioned with Flyway migrations.</li>
+              <li>Playwright end-to-end tests; shipped as a Docker image on Render.</li>
+            </ul>
+            <ul class="tags" aria-label="Technologies">
+              <li>Java 21</li><li>Spring Boot</li><li>React</li><li>TypeScript</li><li>PostgreSQL</li><li>Flyway</li><li>Playwright</li><li>Docker</li>
+            </ul>
+            <div class="project-links">
+              <a class="link-button" href="https://github.com/bharath4980/devtrack" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg>
+                Code<span class="sr-only">: DevTrack on GitHub (opens in a new tab)</span>
+              </a>
+              <a class="link-button link-button-accent" href="https://devtrack-3upd.onrender.com" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>
+                Live demo<span class="sr-only">: DevTrack (opens in a new tab)</span>
+              </a>
+            </div>
+            <p class="project-note">The free Render instance may take a moment to wake up.</p>
+          </article>
+
+          <article class="card project">
+            <div class="project-head">
+              <div>
+                <p class="project-kicker">Applied ML · Team project</p>
+                <h3>MindMetrics-STREL</h3>
+              </div>
+            </div>
+            <p class="project-summary">A team-built stress-classification dashboard with a React and FastAPI interface for comparing models.</p>
+            <p class="my-part"><strong>My part:</strong> the logistic-regression workflow, built in PyTorch with preprocessing and cross-validation grouped by participant, so no person's records appear in both training and test folds.</p>
+            <ul class="tags" aria-label="Technologies">
+              <li>Python</li><li>PyTorch</li><li>Logistic regression</li><li>Grouped cross-validation</li><li>FastAPI</li><li>React</li>
+            </ul>
+            <div class="project-links">
+              <a class="link-button" href="https://github.com/bharath4980/MindMetrics-STREL" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg>
+                Code<span class="sr-only">: MindMetrics-STREL on GitHub (opens in a new tab)</span>
+              </a>
+            </div>
+          </article>
         </div>
-        <div class="case-study-intro" data-reveal>
-          <div class="case-study-headline"><span class="micro-label">THE ENGINEERING QUESTION</span><h3>How do you make a job tracker dependable enough to hold someone’s real search history?</h3></div>
-          <p>DevTrack started as a full-stack application, then evolved around the hard parts that matter after launch: keeping accounts isolated, preserving user data, managing schema changes, and proving that the built container works—not only the development server.</p>
-        </div>
-        <div class="case-study-grid" data-reveal>
-          <article class="case-study-card"><span class="case-study-num">01 / DATA &amp; SECURITY</span><h3>Protect the boundary</h3><p>Owner-scoped application records, session authentication, BCrypt password hashing, CSRF controls and server-side validation keep security anchored in the backend.</p><a href="https://github.com/bharath4980/devtrack/blob/main/docs/authentication.md" target="_blank" rel="noopener noreferrer">Authentication model <span aria-hidden="true">↗</span></a></article>
-          <article class="case-study-card"><span class="case-study-num">02 / DELIVERY</span><h3>Ship the actual artifact</h3><p>A single Spring Boot service serves the React bundle. Docker, Flyway and Neon PostgreSQL keep deployment reproducible without introducing needless infrastructure.</p><a href="https://github.com/bharath4980/devtrack/blob/main/docs/engineering.md" target="_blank" rel="noopener noreferrer">Architecture decisions <span aria-hidden="true">↗</span></a></article>
-          <article class="case-study-card"><span class="case-study-num">03 / CONFIDENCE</span><h3>Test before release</h3><p>CI runs H2 and PostgreSQL checks, builds the production Docker image, and executes desktop/mobile Playwright tests against disposable data. Production releases are checked separately.</p><a href="https://github.com/bharath4980/devtrack/actions/workflows/ci.yml" target="_blank" rel="noopener noreferrer">View CI history <span aria-hidden="true">↗</span></a></article>
-        </div>
-        <div class="evidence-bar" data-reveal><div><span class="micro-label">OPERATING IN PRODUCTION</span><p>The important outcome is a deployed, testable application with documented limitations—not a claim of enterprise-scale traffic.</p></div><a href="https://github.com/bharath4980/devtrack/blob/main/docs/deployment-case-study.md" target="_blank" rel="noopener noreferrer">Read the deployment incident and recovery notes <span aria-hidden="true">↗</span></a></div>
       </div>
     </section>
 
-    <section class="section experience-section" id="experience" aria-labelledby="experience-heading"><div class="container">
-      <div class="section-header" data-reveal><div><p class="section-kicker"><span>03 /</span> PROFESSIONAL EXPERIENCE</p><h2 id="experience-heading">Experience that<br /><em>ships.</em></h2></div><p>Professional delivery of APIs, enterprise workflows, SQL improvements and React interfaces—not just coursework.</p></div>
-      <div class="impact-grid" aria-label="Selected professional contributions" data-reveal>
-        <div class="impact-item"><strong>20+</strong><span>REST endpoints built and enhanced at Darwinbox</span></div>
-        <div class="impact-item"><strong>10K+</strong><span>monthly user interactions supported by delivered workflows</span></div>
-        <div class="impact-item"><strong>15–20%</strong><span>approximate API response-time improvement at ValueLabs</span></div>
-      </div>
-      <div class="experience-layout" data-reveal>
-        <div class="experience-intro"><span class="large-number">03<span>~</span></span><p>years in software engineering roles across Darwinbox and ValueLabs</p><div class="experience-rule"></div><span class="tiny-caps">ENTERPRISE SOFTWARE · FULL STACK</span></div>
-        <div class="timeline">
-          <article class="timeline-item"><div class="timeline-point" aria-hidden="true"></div><div class="timeline-content"><div class="timeline-meta"><span>Aug 2023 — Jul 2024</span><span>HYDERABAD, INDIA</span></div><h3>Software Engineer <span>@ ValueLabs</span></h3><p>Built and tested 10+ Java / Spring Boot REST APIs, developed reusable React screens for administrative workflows, and optimized SQL/database operations to reduce average API response times by approximately 15–20%. Strengthened validation, access control and service-layer testing.</p><div class="timeline-tags"><span>Java</span><span>Spring Boot</span><span>React</span><span>MySQL</span></div></div></article>
-          <article class="timeline-item"><div class="timeline-point" aria-hidden="true"></div><div class="timeline-content"><div class="timeline-meta"><span>Jun 2021 — May 2023</span><span>HYDERABAD, INDIA</span></div><h3>Software Engineer <span>@ Darwinbox</span></h3><p>Delivered Spring Boot APIs and React workflows supporting 10K+ monthly user interactions. Built and enhanced 20+ REST endpoints, created reusable UI components, and worked on authentication, SQL performance and production debugging in an enterprise HR environment.</p><div class="timeline-tags"><span>Spring MVC</span><span>JPA / Hibernate</span><span>SQL</span><span>Jenkins</span></div></div></article>
-        </div>
-      </div>
-    </div></section>
+    <section class="section section-alt" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Experience</p>
+          <h2 id="experience-heading">Where I've worked</h2>
+        </header>
 
-    <section class="section skills-section container" id="skills" aria-labelledby="skills-heading">
-      <div class="section-header" data-reveal><div><p class="section-kicker"><span>04 /</span> TECHNICAL SKILLS</p><h2 id="skills-heading">The tools behind<br /><em>the work.</em></h2></div><p>Technologies I use to build, test, and ship software—organized by how I actually work with them.</p></div>
-      <div class="skills-grid" data-reveal>
-        <div class="skill-card"><span class="skill-index">01</span><h3>Languages</h3><div class="skill-items"><span>Java</span><span>Python</span><span>TypeScript</span><span>JavaScript</span><span>SQL</span></div></div>
-        <div class="skill-card"><span class="skill-index">02</span><h3>Backend systems</h3><div class="skill-items"><span>Spring Boot</span><span>Spring MVC</span><span>Spring Security</span><span>REST APIs</span><span>JPA / Hibernate</span><span>FastAPI</span></div></div>
-        <div class="skill-card"><span class="skill-index">03</span><h3>Frontend & data</h3><div class="skill-items"><span>React</span><span>HTML / CSS</span><span>PostgreSQL</span><span>MySQL</span><span>Oracle Database</span><span>Flyway</span></div></div>
-        <div class="skill-card"><span class="skill-index">04</span><h3>Quality & delivery</h3><div class="skill-items"><span>JUnit</span><span>Playwright</span><span>GitHub Actions</span><span>Docker</span><span>Jenkins</span><span>Maven</span><span>Git</span></div></div>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <article class="card job">
+              <header class="job-head">
+                <div>
+                  <h3>Software Engineer <span class="job-company">· ValueLabs</span></h3>
+                  <p class="job-meta">Hyderabad, India</p>
+                </div>
+                <p class="job-dates"><time datetime="2023-08">Aug 2023</time> – <time datetime="2024-07">Jul 2024</time></p>
+              </header>
+              <ul class="job-points">
+                <li>Built 10+ Spring Boot REST APIs on MySQL for an internal admin portal.</li>
+                <li>Cut API response times by about 15% by adding SQL indexes.</li>
+                <li>Implemented role-based access control for admin, manager and user roles.</li>
+                <li>Built React dashboards, wrote JUnit tests and resolved 25+ defects.</li>
+              </ul>
+              <ul class="tags tags-quiet" aria-label="Technologies">
+                <li>Java</li><li>Spring Boot</li><li>MySQL</li><li>React</li><li>JUnit</li>
+              </ul>
+            </article>
+          </li>
+          <li class="timeline-item">
+            <article class="card job">
+              <header class="job-head">
+                <div>
+                  <h3>Software Engineer <span class="job-company">· Darwinbox</span></h3>
+                  <p class="job-meta">Hyderabad, India · Enterprise HR software</p>
+                </div>
+                <p class="job-dates"><time datetime="2021-06">Jun 2021</time> – <time datetime="2023-05">May 2023</time></p>
+              </header>
+              <ul class="job-points">
+                <li>Built Java/Spring Boot and React workflows for enterprise HR apps with 10K+ monthly user interactions.</li>
+                <li>Delivered 20+ REST endpoints with Spring MVC and Hibernate.</li>
+                <li>Created 15+ reusable React components, cutting duplicate UI code by about 30%.</li>
+                <li>Implemented authentication for 4+ user roles and resolved 40+ defects.</li>
+              </ul>
+              <ul class="tags tags-quiet" aria-label="Technologies">
+                <li>Java</li><li>Spring Boot</li><li>Spring MVC</li><li>Hibernate</li><li>React</li>
+              </ul>
+            </article>
+          </li>
+        </ol>
       </div>
-      <p class="skill-footer" data-reveal>Additional applied ML experience <span>→</span> PyTorch, scikit-learn, pandas, cross-validation</p>
     </section>
 
-    <section class="section about-section" id="about" aria-labelledby="about-heading"><div class="container about-layout" data-reveal><div><p class="section-kicker"><span>05 /</span> APPROACH & EDUCATION</p><h2 id="about-heading">Curiosity backed<br />by <em>execution.</em></h2></div><div class="about-copy"><p>I enjoy the space where solid engineering decisions meet usable products. Whether I'm designing an API, untangling a database query, or refining an interface, I value clarity, reliability, and making the next change easier.</p><p>I've worked professionally on enterprise software and continued building end-to-end systems through personal and academic projects.</p><div class="education-card"><span class="education-icon" aria-hidden="true">↗</span><div><span class="tiny-caps">EDUCATION</span><h3>M.S. Computer Science</h3><p>University of Houston–Clear Lake</p></div></div></div></div></section>
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Skills</p>
+          <h2 id="skills-heading">Tools I use</h2>
+        </header>
+        <div class="skills-grid">
+          <div class="card skill-group">
+            <h3>Languages</h3>
+            <ul class="tags"><li>Java</li><li>TypeScript</li><li>JavaScript</li><li>SQL</li><li>Python</li></ul>
+          </div>
+          <div class="card skill-group">
+            <h3>Backend</h3>
+            <ul class="tags"><li>Spring Boot</li><li>Spring MVC</li><li>Spring Security</li><li>Hibernate / JPA</li><li>REST APIs</li><li>JWT</li></ul>
+          </div>
+          <div class="card skill-group">
+            <h3>Data</h3>
+            <ul class="tags"><li>PostgreSQL</li><li>Row-level security</li><li>MySQL</li><li>Flyway</li><li>SQL indexing</li></ul>
+          </div>
+          <div class="card skill-group">
+            <h3>Frontend</h3>
+            <ul class="tags"><li>React</li><li>TypeScript</li><li>HTML &amp; CSS</li></ul>
+          </div>
+          <div class="card skill-group">
+            <h3>Testing &amp; delivery</h3>
+            <ul class="tags"><li>JUnit 5</li><li>Testcontainers</li><li>Playwright</li><li>JaCoCo</li><li>GitHub Actions</li><li>Docker</li><li>Render</li></ul>
+          </div>
+          <div class="card skill-group">
+            <h3>Observability &amp; ML</h3>
+            <ul class="tags"><li>Micrometer</li><li>Grafana</li><li>PyTorch</li><li>Cross-validation</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <section class="contact-section container" id="contact" aria-labelledby="contact-heading" data-reveal><div class="contact-card"><div class="contact-watermark" aria-hidden="true">BM.</div><p class="section-kicker"><span>06 /</span> CONTACT</p><h2 id="contact-heading">Let’s build<br /><em>what’s next.</em></h2><p>I’m exploring backend, Java / Spring Boot and full-stack software engineering opportunities. If you’re hiring or want to discuss my work, get in touch.</p><div class="contact-actions"><a class="button button-light" href="mailto:bharathmorampudi159@gmail.com?subject=Software%20Engineering%20Opportunity">Email me <span aria-hidden="true">↗</span></a><a class="button button-outline" href="assets/Bharath_Morampudi_Public_Resume.pdf" download>Download résumé <span aria-hidden="true">↓</span></a></div><div class="contact-links"><a href="https://www.linkedin.com/in/bharath-morampudi/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/bharath4980" target="_blank" rel="noopener noreferrer">GitHub ↗</a><span>Houston, Texas</span></div><p id="copy-feedback" class="sr-only" aria-live="polite"></p></div></section>
+    <section class="section section-alt" id="education" aria-labelledby="education-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Education</p>
+          <h2 id="education-heading">Education</h2>
+        </header>
+        <div class="edu-grid">
+          <article class="card edu">
+            <span class="edu-icon" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M22 9 12 4 2 9l10 5 10-5Z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/></svg></span>
+            <div>
+              <h3>M.S. Computer Science</h3>
+              <p>University of Houston–Clear Lake</p>
+              <p class="edu-meta">Houston, Texas</p>
+            </div>
+          </article>
+          <article class="card edu">
+            <span class="edu-icon" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M22 9 12 4 2 9l10 5 10-5Z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/></svg></span>
+            <div>
+              <h3>B.Tech, Computer Science &amp; Engineering (AI &amp; ML)</h3>
+              <p>KL University</p>
+              <p class="edu-meta">India</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-card">
+          <div class="contact-copy">
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-heading">Let's talk</h2>
+            <p>I'm looking for backend and full-stack software engineering roles. If you're hiring or want to discuss my work, email is the fastest way to reach me.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:bharathmorampudi159@gmail.com?subject=Software%20engineering%20opportunity">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <span class="email-full">bharathmorampudi159@gmail.com</span>
+              <span class="email-short" aria-hidden="true">Email me</span>
+            </a>
+            <button class="button button-secondary copy-email" type="button" data-email="bharathmorampudi159@gmail.com">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg>
+              <span class="copy-label">Copy email</span>
+            </button>
+            <p class="sr-only" id="copy-status" aria-live="polite"></p>
+            <ul class="contact-links">
+              <li><a href="https://www.linkedin.com/in/bharath-morampudi/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a></li>
+              <li><a href="https://github.com/bharath4980" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in a new tab)</span></a></li>
+              <li><a href="assets/Bharath_Morampudi_Public_Resume.pdf">Resume (PDF)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="site-footer"><div class="container footer-inner"><a class="footer-mark" href="#top">BM<span>.</span></a><p>Designed to be useful. Built with care.</p><span>© <span id="year">2026</span> Bharath Chand Morampudi</span><a class="back-top" href="#top" aria-label="Back to top">↑</a></div></footer>
-  <script src="script.js" defer></script>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Bharath Chand Morampudi · Houston, Texas</p>
+      <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
 </body>
 </html>

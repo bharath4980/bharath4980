@@ -4,14 +4,14 @@ A recruiter-focused personal website featuring professional Java/Spring Boot exp
 
 ## What is in the site
 
-- Professional opening statement emphasizing Java/Spring Boot and enterprise full-stack delivery.
-- Featured DevTrack application, with dedicated engineering case study, production links, documented architecture and CI evidence.
-- MindMetrics team capstone with Bharath's individual Logistic Regression contribution explicitly distinguished from team work.
-- Quantified highlights from the professional resume at ValueLabs and Darwinbox.
+- Hero with name, role, a one-line summary and Resume / GitHub / LinkedIn buttons, plus an "at a glance" card.
+- Projects: Multi-Tenant Approval Workflow API (code only, not deployed), DevTrack (code and live demo) and MindMetrics-STREL (team project, with Bharath's logistic-regression work called out).
+- Experience timeline for ValueLabs and Darwinbox, grouped skills, education and contact.
+- Light and dark themes: follows the visitor's system setting, with a toggle that is remembered.
+- Responsive from phone to desktop, keyboard accessible (skip link, focus styles, labelled controls), and respects reduced-motion settings.
 - A one-page **public-safe résumé PDF** at `assets/Bharath_Morampudi_Public_Resume.pdf` (phone intentionally omitted; education dates intentionally omitted).
-- Accessible navigation, mobile layouts, search/social metadata, and email / LinkedIn / GitHub contact actions.
 
-**Visual accuracy:** The website's DevTrack pipeline drawing is an editorial illustration, **not a real application screenshot**. The MindMetrics graph is conceptual, **not measured results**. For the actual implementation, follow the provided live app, repository, CI and methodology links. No private production records were captured.
+No images of the projects are used, so nothing on the page is a mock-up presented as a screenshot.
 
 ## Run locally
 
@@ -19,7 +19,7 @@ A recruiter-focused personal website featuring professional Java/Spring Boot exp
 python3 -m http.server 8000
 ```
 
-Visit http://localhost:8000 from this folder. No build tool, third-party JavaScript, API keys, account tracking, form backend or database are required. The optional Google Fonts stylesheet uses external requests; system font fallbacks work without internet.
+Visit http://localhost:8000 from this folder. No build tool, web fonts, third-party JavaScript, API keys, tracking, form backend or database are required; the page makes no external requests.
 
 ## Deployment
 
@@ -48,7 +48,7 @@ The dedicated GitHub Pages repository `bharath4980.github.io` has not been creat
 ## Source files
 
 - `index.html` — content and SEO metadata
-- `styles.css` — layout, motion reduction and responsive design
-- `script.js` — accessible mobile navigation and scroll behavior
+- `styles.css` — light/dark theme tokens, layout and responsive design
+- `script.js` — theme toggle, mobile menu, active-section highlighting and copy-email button
 - `assets/Bharath_Morampudi_Public_Resume.pdf` — public résumé
 - `assets/favicon.svg` — favicon
