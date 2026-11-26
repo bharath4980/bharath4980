@@ -17,6 +17,20 @@ Developed Java/Spring Boot and React business workflows using Spring MVC, JPA/Hi
 
 ## Selected projects
 
+### [Multi-Tenant Approval Workflow API](https://github.com/bharath4980/multi-tenant-approval-api)
+
+**Java 21 · Spring Boot 3.5 · PostgreSQL · Testcontainers · Docker**
+
+A SaaS-style REST API where companies (tenants) set up multi-step approval flows, such as expense or discount approvals.
+
+- Routes each request to the right approver by amount and role, with an append-only audit history of every action
+- Tenant isolation with PostgreSQL row-level security and tenant-scoped JWT login
+- Idempotency keys (`INSERT … ON CONFLICT`) to prevent duplicate requests, and `@Version` optimistic locking to catch conflicting updates
+- 175 JUnit 5 and Testcontainers tests against real PostgreSQL, with 97.9% line coverage and an 80% JaCoCo gate in GitHub Actions
+- Micrometer latency and error metrics on a Grafana dashboard, Swagger UI, and a Docker Compose stack for local runs
+
+[Source & setup](https://github.com/bharath4980/multi-tenant-approval-api)
+
 ### [DevTrack — Job Application Tracker](https://github.com/bharath4980/devtrack)
 
 **Java 21 · Spring Boot · React · TypeScript · PostgreSQL**
@@ -52,10 +66,11 @@ The broader application and other model workflows were team contributions.
 | Area | Technologies |
 | --- | --- |
 | Languages | Java, Python, JavaScript, TypeScript, SQL |
-| Backend | Spring Boot, Spring MVC, Spring Security, Spring Data JPA, Hibernate, REST APIs, FastAPI |
+| Backend | Spring Boot, Spring MVC, Spring Security, Spring Data JPA, Hibernate, REST APIs, JWT, FastAPI |
 | Frontend | React |
-| Databases | PostgreSQL, MySQL, Flyway |
-| Testing & delivery | JUnit, integration testing, Playwright, Postman, Docker, GitHub Actions, Jenkins, Git, Maven, CI/CD |
+| Databases | PostgreSQL (including row-level security), MySQL, Flyway |
+| Testing & delivery | JUnit 5, Testcontainers, JaCoCo, integration testing, Playwright, Postman, Docker, GitHub Actions, Jenkins, Git, Maven, CI/CD |
+| Observability | Micrometer, Grafana |
 | Applied ML | PyTorch, scikit-learn, pandas, GroupKFold cross-validation |
 
 ## Connect
